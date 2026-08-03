@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128" role="img" aria-label="کیوب‌ساز">
+  <title>CubeSaz</title>
+  <defs>
+    <linearGradient id="cs-top" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7ea6f7"/>
+      <stop offset="1" stop-color="#3b82f6"/>
+    </linearGradient>
+    <linearGradient id="cs-left" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#1741b0"/>
+    </linearGradient>
+    <linearGradient id="cs-right" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d4ed8"/>
+      <stop offset="1" stop-color="#102a75"/>
+    </linearGradient>
+  </defs>
+
+  <!-- سه وجه یک مکعب ایزومتریک: نماد «ساختن» در نام کیوب‌ساز -->
+  <path d="M64 12 L114 40 L64 68 L14 40 Z" fill="url(#cs-top)"/>
+  <path d="M14 40 L64 68 L64 120 L14 92 Z" fill="url(#cs-left)"/>
+  <path d="M114 40 L114 92 L64 120 L64 68 Z" fill="url(#cs-right)"/>
+
+  <!-- شکاف باز روی وجه بالا: مکعبی که در حال ساخته‌شدن است -->
+  <path d="M64 26 L88 40 L64 54 L40 40 Z" fill="#05070d" opacity=".22"/>
+
+  <!-- درز میانی برای جداکردن دو وجه پایین -->
+  <path d="M64 68 L64 120" stroke="#05070d" stroke-opacity=".28" stroke-width="2"/>
+</svg>
