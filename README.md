@@ -8,7 +8,7 @@
 
 بدون هاست · بدون سرور · بدون دانش فنی
 
-[**🚀 شروع رایگان**](https://t.me/cubesaz) · [**📋 فهرست ۱۵۳ قابلیت**](https://cubepy.github.io/cubesaz-site/#features) · [**📢 کانال**](https://t.me/CubeSaz)
+[**🚀 شروع رایگان**](https://t.me/cubesaz) · [**📋 فهرست ۱۵۳ قابلیت**](https://cubesystem.top/cubesaz-site/#features) · [**📢 کانال**](https://t.me/CubeSaz)
 
 </div>
 
