@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 🎧 پشتیبانی فوری
+    url: https://t.me/cubesaz_bot
+    about: برای مشکل ربات یا اپ خودتان، سریع‌ترین راه بخش پشتیبانی @cubesaz_bot است.
+  - name: 🛡 گزارش مشکل امنیتی
+    url: https://github.com/cubepy/cubesaz-site/blob/main/SECURITY.md
+    about: مشکل امنیتی را خصوصی گزارش کنید، نه در Issue عمومی.
