@@ -1,0 +1,33 @@
+name: 🐞 گزارش مشکل
+description: چیزی که کار نمی‌کند یا درست کار نمی‌کند
+labels: ["مشکل"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        اطلاعات مشتری، توکن ربات، رمز یا لینک اشتراک را اینجا نگذارید؛ این صفحه عمومی است. برای مشکل فوری، بخش پشتیبانی @cubesaz_bot سریع‌تر است.
+  - type: dropdown
+    id: area
+    attributes:
+      label: کجا؟
+      options:
+        - ربات فروش
+        - مینی‌اپ
+        - پنل وب
+        - اپلیکیشن اندروید
+        - پرداخت
+        - چیز دیگر
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: چه اتفاقی افتاد؟
+      description: چه کاری کردید، انتظار چه چیزی را داشتید، و چه دیدید. اسکرین‌شات خیلی کمک می‌کند.
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: کی؟ (تقریبی)
+      placeholder: "امروز حدود ساعت ۱۴"

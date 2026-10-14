@@ -1,0 +1,37 @@
+name: 💡 پیشنهاد
+description: قابلیتی که لازم دارید، یا جایی که کار با ربات و اپ می‌تواند ساده‌تر باشد
+labels: ["پیشنهاد"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ربات و اپ با نظر شما پخته می‌شود. ما بخش فنی را می‌سازیم، ولی اینکه کار با آن برای شما و مشتری‌هایتان راحت باشد را فقط شما می‌بینید.
+  - type: dropdown
+    id: area
+    attributes:
+      label: کدام بخش؟
+      options:
+        - ربات فروش
+        - مینی‌اپ
+        - پنل وب
+        - اپلیکیشن اندروید
+        - پرداخت
+        - چیز دیگر
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: الان چه چیزی سخت یا ناقص است؟
+      description: از زبان خودتان یا مشتری‌تان بنویسید. «مشتری‌ها مدام می‌پرسند…» بهترین شروع است.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: چه چیزی کمک می‌کرد؟
+  - type: input
+    id: bot
+    attributes:
+      label: آیدی ربات‌تان (اختیاری)
+      placeholder: "@your_shop_bot"
